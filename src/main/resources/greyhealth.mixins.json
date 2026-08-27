@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.inknat.greyhealth.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "NaturalRegenPreventMixin",
+    "GreyHealthRenderMixin"
+  ],
+  "mixinextras": {"minVersion": "0.5.3"},
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

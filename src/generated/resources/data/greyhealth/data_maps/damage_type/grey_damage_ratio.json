@@ -1,0 +1,9 @@
+{
+  "values": {
+    "minecraft:drown": 0.0,
+    "minecraft:explosion": 1.0,
+    "minecraft:player_explosion": 1.0,
+    "minecraft:fall": 0.0,
+    "minecraft:lava": 1.0
+  }
+}
