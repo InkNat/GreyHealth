@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "NaturalRegenPreventMixin",
-    "GreyHealthRenderMixin"
+    "GreyHealthRenderMixin",
+    "AppleSkinHealthRenderMixin"
   ],
   "mixinextras": {"minVersion": "0.5.3"},
   "injectors": {
@@ -13,5 +14,6 @@
   },
   "overwrites": {
     "requireAnnotations": true
-  }
+  },
+  "plugin" : "me.inknat.greyhealth.MixinPlugin"
 }

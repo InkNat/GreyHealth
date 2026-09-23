@@ -10,6 +10,7 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+    maven { url "https://maven.ryanliptak.com/" }
 }
 
 base {
@@ -116,6 +117,8 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    compileOnly "squeek.appleskin:appleskin-neoforge:mc1.21-3.0.9"
+    runtimeOnly "squeek.appleskin:appleskin-neoforge:mc1.21-3.0.9"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
